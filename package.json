@@ -1,20 +1,21 @@
 {
-  "name": "webpacker",
+  "name": "nullwebpack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode development"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel-core": "^6.24.1",
-    "babel-loader": "^7.0.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "prepack-webpack-plugin": "^1.1.0",
-    "webpack": "^2.5.1",
-    "webpack-dev-server": "^2.4.5"
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-latest": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "prepack-webpack-plugin": "^1.1.1",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
   }
 }
